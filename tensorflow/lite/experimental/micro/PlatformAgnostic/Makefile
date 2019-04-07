@@ -24,3 +24,6 @@ micro_error_reporter_test : $(OBJS)
 	-o $@
 
 all: micro_error_reporter_test
+
+clean:
+	rm $(OBJS)
