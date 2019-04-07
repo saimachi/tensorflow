@@ -2,4 +2,5 @@ This directory contains hardware platform-agnostic code. Do remember that the de
 
 Some points to consider:
 1. Your cross-compiler must be compatible with C++11. 
-2. When building, issue the following command: "make CC=[YOUR C CROSS COMPILER] CXX=[YOUR C++ CROSS COMPILER]
+2. When building, issue the following command: "make CC=[YOUR C CROSS COMPILER] CXX=[YOUR C++ CROSS COMPILER]"
+"make clean"
